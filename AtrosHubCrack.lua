@@ -10,8 +10,8 @@ do
 		end
 	end
 	game:GetService("StarterGui"):SetCore("SendNotification", {
-		Title = "Van Thang";
-		Text = "VinF Premium";
+		Title = "Cba";
+		Text = "ASTRO Premium";
 		Duration = 5;
 		Button1 = "Copy";
 		Button2 = "No";
@@ -23,7 +23,7 @@ do
 	setreadonly(L_2_, false);
 	L_2_.__newindex = newcclosure(function(L_5_arg0, L_6_arg1, L_7_arg2)
 		if L_6_arg1 == "Text" and tostring(L_7_arg2):find"ASTRO HUB" then
-			L_7_arg2 = L_7_arg2:gsub("ASTRO HUB", "Vin Hub Premium")
+			L_7_arg2 = L_7_arg2:gsub("ASTRO HUB", "ASTRO HUB Premium")
 		end;
 		return L_3_(L_5_arg0, L_6_arg1, L_7_arg2)
 	end);
